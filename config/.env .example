@@ -1,0 +1,14 @@
+NODE_ENV=development
+PORT=55500
+
+# database pgsql
+DATABASE_URL='postgres://myuser:mypassword@localhost:5432/nest-cqrs'
+POSTGRES_DB="nest-cqrs"
+POSTGRES_USER= 'user'
+POSTGRES_PASSWORD= 'password'
+
+# jwt
+JWT_SECRET='sup3r_s3cr3t'
+JWT_EXPIRES_IN="1h"
+
+SENTRY_DSN='your sentry dsn'
